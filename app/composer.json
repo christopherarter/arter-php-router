@@ -1,0 +1,14 @@
+{
+    "name": "chris-arter/router",
+    "version": "0.1",
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {"Arter\\": "src/"},
+        "files": [
+            "routes.php"
+        ]
+    }
+}
